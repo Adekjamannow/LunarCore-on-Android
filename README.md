@@ -7,7 +7,7 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 3. When you first open the application it may ask you for notifications permission press ok (android 13 and up)
 4. After everything finishes copy the command bellow and paste it onto the terminal.
 ```sh
-apt update && apt install git -y && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && chmod +x install.sh && ./install.sh
+apt update && apt install git -y && git clone https://github.com/Adekjamannow/LunarCore-on-Android.git && cd LunarCore-on-Android && chmod +x install.sh && ./install.sh
 ```
 5. If the server fails to start type ```stop``` and type ```./start.sh``` (If the error persists restart your phone)
    

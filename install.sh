@@ -4,7 +4,7 @@ chmod +x start.sh
 chmod +x firstStart.sh
 pip install blackboxprotobuf
 pip install requests
-wget https://drive.usercontent.google.com/download?id=14REN2Rw-CXMy01QNYvl4Mo6Msvy6Viex
+wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
 unzip LunarCore.zip
 rm LunarCore.zip
 mkdir data 
@@ -12,6 +12,7 @@ cd data
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/ActivityScheduling.json
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/Banners.json
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/RogueMapGen.json
+wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaService.java
 cd ..
 mkdir resources
 git clone --depth 1 https://github.com/Dimbreath/StarRailData

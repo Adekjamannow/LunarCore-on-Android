@@ -10,6 +10,7 @@ cd data
 wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/ActivityScheduling.json
 wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/Banners.json
 wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/RogueMapGen.json
+wget https://raw.githubusercontent.com/Melledy/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaService.java
 cd ..
 mkdir resources
 git clone --depth 1 https://github.com/Dimbreath/StarRailData

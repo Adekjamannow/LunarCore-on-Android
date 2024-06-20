@@ -1,39 +1,38 @@
-# LunarCore-on-Android
-A comprehensive guide on how to run the server implementation of a certain turn based anime game on your android device completly offline 
+# LunarCore-di-Android
+Panduan komprehensif tentang cara menjalankan atau meng-implementasi server game anime berbasis giliran tertentu di perangkat Android Anda sepenuhnya offline
 
-## Server Installation: 
-1. Download and install Termux from [here](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk)
-2. Open Termux
-3. When you first open the application it may ask you for notifications permission press ok (android 13 and up)
-4. After everything finishes copy the command bellow and paste it onto the terminal.
+## Menginstal Aplikasi: 
+1. Download dan install Termux dari [Disini](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk)
+2. Buka Termux
+3. Saat pertama kali membuka aplikasi, aplikasi mungkin meminta izin notifikasi, tekan ok (Android 13+)
+4. Setelah semuanya selesai salin perintah di bawah ini dan tempelkan ke terminal.
 ```sh
 apt update && apt install git -y && git clone https://github.com/Adekjamannow/LunarCore-on-Android.git && cd LunarCore-on-Android && chmod +x install.sh && ./install.sh
 ```
-5. If the server fails to start type ```stop``` and type ```./start.sh``` (If the error persists restart your phone)
+5. Jika server gagal untuk start pencet```stop``` and type ```./start.sh``` (If the error persists restart your phone)
    
-Congratulations you have succesfully installed the LunarCore server
+Selamat Anda telah berhasil menginstall server LunarCore
 ## Client installation 
-1. Download and install the latest modified game client from [here](https://github.com/kostas214/LunarCore-on-Android/releases)
-2. Log in with any username and password
-
-## Starting the server
-1. Open Termux application
-2. Copy and paste this command
+1. Download dan instal klien game modifikasi terbaru dari [sini](https://github.com/kostas214/LunarCore-on-Android/releases)
+2. login pake username dan password bebas
+## Start the server
+1. Buka Termux
+2. Copy dan paste command ini
 ```sh
 ./start.sh
 ```
-3. Either choose online mode by typing ```1``` or offline mode by typing ```2```
-4. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 2 (If the error persists restart your phone)
-5. Open the modified client
-6. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
+3. kalo mode online pilih ```1``` atau mode offline pilih```2```
+4. jika server gagal ke start, tekan ```ctrl``` menggunakan tombol diatas keyboard, lalu```c``` dan ulangi step ke 2 (jika error lagi, restart saja hpnya)
+5. buka aplikasi modnya
+6. Dibagian Login, ketik username dan password bebas
 7. Enjoy
-## Stopping the server
-1. Open the Termux application type ```stop``` to stop the server.
-2. Type ```exit``` and press enter to exit the application.
-## Updating
-1. Download and update to the latest client from [here](https://github.com/kostas214/LunarCore-on-Android/releases)
-2. Open Termux
-3. Enter this command
+## Stop server
+1. Buka Termux lalu ketik ```stop``` untuk memberhentikan server
+2. ketik ```exit``` lalu enter untuk keluar dari aplikasi Termux
+## Update
+1. Download dan update ke klient mod terbaru [disini](https://github.com/kostas214/LunarCore-on-Android/releases)
+2. Buka Termux
+3. Enter command ini
  ```sh
  cd && cd LunarCore-on-Android && rm hotfix.json || true && git reset --hard HEAD~1 && git pull && . update.sh
 ```

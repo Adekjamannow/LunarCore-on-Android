@@ -12,8 +12,8 @@ cd data
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/ActivityScheduling.json
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/Banners.json
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/RogueMapGen.json
-wget https://raw.githubusercontent.com/Melledy/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaService.java
-wget https://raw.githubusercontent.com/Melledy/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaBanner.java
+wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaService.java
+wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaBanner.java
 cd ..
 mkdir resources
 git clone --depth 1 https://github.com/Dimbreath/StarRailData

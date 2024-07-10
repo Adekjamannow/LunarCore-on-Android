@@ -12,10 +12,10 @@ apt update && apt install git -y && git clone https://github.com/Adekjamannow/Lu
 5. Jika server gagal untuk start pencet```stop``` and type ```./start.sh``` (If the error persists restart your phone)
    
 Selamat Anda telah berhasil menginstall server LunarCore
-## Client installation 
+## Install Client
 1. Download dan instal klien game modifikasi terbaru dari [sini](https://github.com/kostas214/LunarCore-on-Android/releases)
 2. login pake username dan password bebas
-## Start the server
+## Start Servernya 
 1. Buka Termux
 2. Copy dan paste command ini
 ```sh
@@ -26,7 +26,7 @@ Selamat Anda telah berhasil menginstall server LunarCore
 5. buka aplikasi modnya
 6. Dibagian Login, ketik username dan password bebas
 7. Enjoy
-## Stop server
+## Stop servernya
 1. Buka Termux lalu ketik ```stop``` untuk memberhentikan server
 2. ketik ```exit``` lalu enter untuk keluar dari aplikasi Termux
 ## Update
@@ -39,4 +39,4 @@ Selamat Anda telah berhasil menginstall server LunarCore
 ## Credits 
 1. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
 2. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
-
+3. Lunarcore-on-Android dev [him github page](https://github.com/Melledy/LunarCore)

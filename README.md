@@ -39,4 +39,4 @@ Selamat Anda telah berhasil menginstall server LunarCore
 ## Credits 
 1. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
 2. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
-3. Lunarcore-on-Android dev [him github page](https://github.com/kostas214/LunarCore-on-Android)
+3. Lunarcore-on-Android dev [his github page](https://github.com/kostas214/LunarCore-on-Android)

@@ -14,7 +14,8 @@ apt update && apt install git -y && git clone https://github.com/Adekjamannow/Lu
 Selamat Anda telah berhasil menginstall server LunarCore
 ## Install Client
 1. Download dan instal apk game modifikasi terbaru dari [sini](https://github.com/kostas214/LunarCore-on-Android/releases)
-   atau gunakan versi Proxy, tutorial memasukan ada di [images](https://github.com/Adekjamannow/LunarCore-on-Android/tree/main/Images), download versi proxy dari [sini](https://github.com/Xuoos/StarRailProxy/releases/tag/2.4.0)
+   atau gunakan versi Proxy, tutorial memasukan server ada di [images](https://github.com/Adekjamannow/LunarCore-on-Android/tree/main/Images),
+   download versi proxy dari [sini](https://github.com/Xuoos/StarRailProxy/releases/tag/2.4.0)
 2. login pake username dan password bebas
 ## Start Servernya 
 1. Buka Termux

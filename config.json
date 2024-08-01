@@ -29,7 +29,7 @@
   },
   "gameServer": {
     "id": "lunar_rail_test",
-    "name": "Ryouji PS",
+    "name": "Ryouji PS 2.4",
     "description": "A LunarCore server",
     "kcpInterval": 40,
     "bindAddress": "0.0.0.0",
@@ -40,30 +40,30 @@
   "serverOptions": {
     "autoCreateAccount": true,
     "sceneMaxEntites": 500,
-    "maxCustomRelicLevel": 9999,
+    "maxCustomRelicLevel": 999999,
     "unlockAllChallenges": true,
     "spendStamina": true,
     "staminaRecoveryRate": 300,
     "staminaReserveRecoveryRate": 1080,
-    "startTrailblazerLevel": 1,
+    "startTrailblazerLevel": 70,
     "autoUpgradeWorldLevel": true,
     "language": "EN",
     "defaultPermissions": [
       "*"
     ],
     "serverFriendInfo": {
-      "name": "Server",
-      "signature": "Type /help for a list of commands",
-      "level": 1,
-      "headIcon": 201001,
+      "name": "Fucuan",
+      "signature": "Istri admin ADJN, siap membantu, list command type /help",
+      "level": 4,
+      "headIcon": 200110,
       "chatBubbleId": 0,
       "displayAvatarId": 1001,
-      "displayAvatarLevel": 1
+      "displayAvatarLevel": 70
     },
     "welcomeMail": {
-      "title": "Welcome to a LunarCore server",
-      "sender": "Server",
-      "content": "Welcome to Lunar Core! Please take these items as a starter gift. For a list of commands, type /help in the server chat window. Check out our \u003ca type\u003dOpenURL1 href\u003dhttps://discord.gg/cfPKJ6N5hw\u003eDiscord\u003c/a\u003e and \u003ca type\u003dOpenURL1 href\u003dhttps://github.com/Melledy/LunarCore\u003eGithub\u003c/a\u003e for more information about the server.",
+      "title": "Welcome to a LunarCore server × Ryouji",
+      "sender": "Fuxuan",
+      "content": "Welcome to Lunar Core! Please take these items as a starter gift. For a list of commands, type /help in the server chat window. Check out our \u003ca type\u003dOpenURL1 href\u003dhttps://discord.com/invite/mSp55VFzy6\u003eDiscord\u003c/a\u003e and \u003ca type\u003dOpenURL1 href\u003dhttps://github.com/Melledy/LunarCore\u003eGithub\u003c/a\u003e for more information about the server.",
       "attachments": [
         {
           "id": 2,
@@ -71,7 +71,7 @@
         },
         {
           "id": 101,
-          "count": 100
+          "count": 100000
         },
         {
           "id": 102,

@@ -13,11 +13,11 @@ wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/data/R
 wget https://raw.githubusercontent.com/Adekjamannow/LunarCore/development/src/main/java/emu/lunarcore/game/gacha/GachaService.java
 cd ..
 mkdir resources
-git clone --depth 1 https://github.com/Dimbreath/StarRailData
-cd StarRailData
+git clone --depth 1 https://gitlab.com/Dimbreath/turnbasedgamedata.git
+cd turnbasedgamedata
 mv Config ExcelOutput TextMap ~/LunarCore-on-Android/resources
 cd ~/LunarCore-on-Android
-rm -rf StarRailData
+rm -rf turnbasedgamedata
 python3 hotFixGraber.py 1
 chmod +x firstStart.sh
 ./firstStart.sh
